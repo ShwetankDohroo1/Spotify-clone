@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+/* .border{
+    border: 2px solid red;
+} */
+.items-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.bg_black{
+    background-color: black;
+    color: white;
+}
+.bg_grey{
+    background-color: #161515;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 8px;
+}
+.roundedmax{
+    border-radius: 100%;
+}
+.m_1{
+    margin: 8px;
+}
+.nav{
+    padding: 35px;
+}
+.l:hover{
+    transition: 0.3s;
+    transform: translateX(-5px);
+}
+.r:hover{
+    transition: 0.3s;
+    transform: translateX(5px);
+}

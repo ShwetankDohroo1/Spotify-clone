@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to bottom, #2c2c2c, #1b1b1b, #161515, #161515, #0f0f0f);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    transition: 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+.login-box {
+    background-image: linear-gradient(to top, #2c2c2c, #1b1b1b, #161515, #161515, #0f0f0f);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    width: 100%;
+    transition: box-shadow 1.5s ease;
+}
+
+.login-box:hover {
+    animation: shadow-pulse 2s infinite ease-in-out;
+    box-shadow: 0 0 40px rgba(29, 185, 84, 0.5);
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size:50px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #535353;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    transition: box-shadow 0.5s ease;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #1db954;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #10933e;
+}
+
+.signup-link,
+.forgot-password {
+    color: #b3b3b3;
+    margin-top: 20px;
+}
+
+.signup-link a,
+.forgot-password a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.signup-link a:hover,
+.forgot-password a:hover {
+    color: #fff;
+}
+
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 10px rgba(29, 185, 84, 0);
+    }
+    50% {
+        box-shadow: 0 0 90px rgba(129, 187, 149, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0px rgba(29, 185, 84, 0);
+    }
+}
+.with{
+    border-radius: 14px;
+    margin: 10px;
+    height: 30px;
+    transition: 0.3s ease-in-out;
+}
+.with:hover{
+    background-color: rgba(70, 70, 70, 0.7);
+}
